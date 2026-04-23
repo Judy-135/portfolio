@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>朱嘉晴 | 可持续商业管理</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">Jiaqing</a>
+      <ul class="nav-links">
+        <li><a href="#about" class="active">关于我</a></li>
+        <li><a href="#education">教育背景</a></li>
+        <li><a href="#honors">荣誉奖项</a></li>
+        <li><a href="#experience">实践经验</a></li>
+        <li><a href="#works">作品展示</a></li>
+        <li><a href="#contact">联系我</a></li>
+      </ul>
+      <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about">关于我</a>
+      <a href="#education">教育背景</a>
+      <a href="#honors">荣誉奖项</a>
+      <a href="#experience">实践经验</a>
+      <a href="#works">作品展示</a>
+      <a href="#contact">联系我</a>
+    </div>
+  </nav>
+
+  <!-- Hero区域 -->
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="hero-badge">✨ 求职中</span>
+        <h1 class="hero-title">
+          你好，我是<br>
+          <span>朱嘉晴</span> 🌷
+        </h1>
+        <p class="hero-subtitle">香港中文大学硕士 · 可持续全球商业管理</p>
+        
+        <div class="hero-university">
+          <h3>🌸 香港中文大学 CUHK</h3>
+          <p>可持续全球商业管理硕士 | 2026毕业</p>
+        </div>
+        
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number" data-target="4.23">0</div>
+            <div class="stat-label">GPA</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="35">0</div>
+            <div class="stat-label">获奖荣誉</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="7.0">0</div>
+            <div class="stat-label">雅思 7.0</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-avatar">
+        <div class="avatar-container">
+          <div class="avatar-circle">
+            <img src="avatar.jpg" alt="朱嘉晴" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22><circle fill=%22%23FFE4EC%22 cx=%22200%22 cy=%22200%22 r=%22200%22/><text x=%22200%22 y=%22220%22 text-anchor=%22middle%22 fill=%22%23FF9CC2%22 font-size=%2280%22>🌸</text></svg>'">
+          </div>
+          <div class="avatar-decoration"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于我 -->
+  <section class="container" id="about">
+    <div class="section-title">
+      <h2>关于我</h2>
+      <p>一个热爱可持续发展领域的女孩 🌱</p>
+    </div>
+    <div class="about scroll-animate">
+      <p class="about-intro">
+        我是朱嘉晴，毕业于东北林业大学农林经济管理专业，现就读于香港中文大学可持续全球商业管理硕士项目。连续两年获得国家奖学金，GPA 4.23，加权均分 94.16。我热爱可持续发展与ESG领域，致力于将商业与环境保护相结合，创造更美好的未来。
+      </p>
+      
+      <div class="skills-grid">
+        <span class="skill-tag">🌱 ESG可持续发展</span>
+        <span class="skill-tag">💹 财务分析</span>
+        <span class="skill-tag">📈 数据建模</span>
+        <span class="skill-tag">🌍 林业碳汇</span>
+        <span class="skill-tag">🎯 项目管理</span>
+        <span class="skill-tag">📑 学术研究</span>
+        <span class="skill-tag">🎤 英语演讲</span>
+        <span class="skill-tag">🤝 团队协作</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 教育背景 -->
+  <section class="container" id="education">
+    <div class="section-title">
+      <h2>教育背景</h2>
+      <p>从林大到港中文，一直在成长的路上 🌿</p>
+    </div>
+    <div class="education-grid">
+      <div class="education-main scroll-animate">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2025 - 至今</div>
+            <div class="timeline-title">🌸 香港中文大学 CUHK</div>
+            <div class="timeline-subtitle">可持续全球商业管理硕士</div>
+            <div class="edu-highlight">
+              <h4>✨ 课程亮点</h4>
+              <ul>
+                <li>可持续发展战略与ESG投资</li>
+                <li>全球供应链与碳足迹管理</li>
+                <li>企业社会责任与绿色金融</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2021 - 2025</div>
+            <div class="timeline-title">🎓 东北林业大学 NEFU</div>
+            <div class="timeline-subtitle">农林经济管理专业 | GPA 4.23 | 加权均分 94.16</div>
+            <div class="edu-highlight">
+              <h4>🎯 核心课程</h4>
+              <ul>
+                <li>微观/宏观经济学 · 管理学 · 统计学</li>
+                <li>林业经济学 · 农业经济学 · 生态经济学</li>
+                <li>计量经济学 · 技术经济学 · 资源与环境经济学</li>
+                <li>市场营销学 · 财务分析 · 经济法</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="scroll-animate">
+        <div class="about" style="margin-bottom: 1.5rem;">
+          <h3 style="color: var(--pink-deep); margin-bottom: 1rem;">🏆 学术成就</h3>
+          <ul style="list-style: none; padding: 0;">
+            <li style="padding: 0.5rem 0; border-bottom: 1px dashed var(--pink-soft);">
+              <strong>📄 CSCD期刊论文（第一作者）</strong><br>
+              <span style="color: var(--text-light);">《基于时变参数C-D生产函数的江西省农业碳排放驱动因素及脱钩效应》<br>发表于《应用生态学报》2023年第34卷</span>
+              <br><a href="documents/学术论文/基于时变参数C-D生产函数...业碳排放驱动因素及脱钩效应_朱嘉晴.pdf" target="_blank" class="doc-link">📎 查看论文全文</a>
+            </li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px dashed var(--pink-soft);">
+              <strong>🔬 大创项目</strong><br>
+              <span style="color: var(--text-light);">国家级立项2项 · 省级立项1项</span>
+            </li>
+            <li style="padding: 0.5rem 0; border-bottom: 1px dashed var(--pink-soft);">
+              <strong>🗣️ 英语能力</strong><br>
+              <span style="color: var(--text-light);">雅思 7.0 · CET-6 579分 · 英语演讲与辩论 100分</span>
+            </li>
+            <li style="padding: 0.5rem 0;">
+              <strong>📜 专业证书</strong><br>
+              <span style="color: var(--text-light);">ACCA-ESG证书 · 可持续投资基础证书 · 计算机二级（优秀）· 普通话二级甲等 · 公共营养师三级</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- 荣誉奖项 -->
+  <section class="container" id="honors">
+    <div class="section-title">
+      <h2>荣誉奖项</h2>
+      <p>每一份荣誉都是努力的证明 🌟</p>
+      <a href="documents/证书证明/获奖证明.pdf" target="_blank" class="section-doc-link">📎 查看获奖证书汇总</a>
+    </div>
+    <div class="honors-grid">
+      <div class="honor-card scroll-animate">
+        <div class="honor-icon">🏆</div>
+        <div class="honor-title">国家奖学金</div>
+        <div class="honor-level level-national">国家级</div>
+        <div class="honor-year">2021-2022 & 2022-2023学年</div>
+      </div>
+      
+      <div class="honor-card scroll-animate">
+        <div class="honor-icon">🏅</div>
+        <div class="honor-title">全国大学生国际英语能力挑战杯</div>
+        <div class="honor-level level-national">国家级特等奖</div>
+        <div class="honor-year">2022 年度</div>
+      </div>
+      
+      <div class="honor-card scroll-animate">
+        <div class="honor-icon">🎤</div>
+        <div class="honor-title">"外研社·国才杯"全国大学生英语演讲大赛</div>
+        <div class="honor-level level-national">国家级铜奖</div>
+        <div class="honor-year">2023 年度</div>
+      </div>
+      
+      <div class="honor-card scroll-animate">
+        <div class="honor-icon">🛒</div>
+        <div class="honor-title">全国高校商业精英挑战赛跨境电商赛道</div>
+        <div class="honor-level level-national">国家级二等奖</div>
+        <div class="honor-year">2023 年度</div>
+      </div>
+      
+      <div class="honor-card scroll-animate">
+        <div class="honor-icon">🌟</div>
+        <div class="honor-title">黑龙江省普通高等学校"三好学生"</div>
+        <div class="honor-level level-provincial">省级</div>
+        <div class="honor-year">2023 年度</div>
+      </div>
+      
+      <div class="honor-card scroll-animate">
+        <div class="honor-icon">📊</div>
+        <div class="honor-title">全国大学生数学建模竞赛黑龙江赛区</div>
+        <div class="honor-level level-provincial">赛区一等奖</div>
+        <div class="honor-year">2023 年度</div>
+      </div>
+      
+      <div class="honor-card scroll-animate">
+        <div class="honor-icon">🌏</div>
+        <div class="honor-title">"用英语讲中国故事"大学组</div>
+        <div class="honor-level level-provincial">东北区一等奖</div>
+        <div class="honor-year">2023 年度</div>
+      </div>
+      
+      <div class="honor-card scroll-animate">
+        <div class="honor-icon">🌱</div>
+        <div class="honor-title">安永ESG大学生创新挑战赛</div>
+        <div class="honor-level level-provincial">复赛三等奖</div>
+        <div class="honor-year">2022 年度</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 实践经验 -->
+  <section class="container" id="experience">
+    <div class="section-title">
+      <h2>实践经验</h2>
+      <p>在实践中成长，在挑战中突破 🚀</p>
+    </div>
+    
+    <div class="experience-tabs">
+      <button class="exp-tab active" onclick="switchTab('internship')">💼 实习经历</button>
+      <button class="exp-tab" onclick="switchTab('research')">🔬 科研项目</button>
+      <button class="exp-tab" onclick="switchTab('volunteer')">💝 志愿服务</button>
+    </div>
+    
+    <div class="about scroll-animate">
+      <!-- 实习经历 -->
+      <div class="experience-content active" id="internship">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2025.02 - 2025.07</div>
+            <div class="timeline-title">💼 正领北进管理咨询（广州）有限公司</div>
+            <div class="timeline-subtitle">ESG项目管理实习生</div>
+            <div class="timeline-desc">
+              • 独立完成6家企业的深度ESG评估，实现评级B+到A的提升<br>
+              • 行业研究与战略分析，对比企业历史报告与同业表现，识别关键提升指标<br>
+              • 系统搜集整理ESG目标、MSCI高分报告，搭建内部知识库
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2024.07 - 2024.11</div>
+            <div class="timeline-title">🏢 中诚信绿金（北京）</div>
+            <div class="timeline-subtitle">数据模型部实习生</div>
+            <div class="timeline-desc">
+              • 参与搭建高校ESG评价体系项目，完成30余项核心指标的权重设置<br>
+              • 负责超过50家企业ESG报告的数据录入与20余家企业的数据审核<br>
+              • 深度参与行业分析报告的数据处理与图表制作
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2022.11 - 2022.12</div>
+            <div class="timeline-title">📱 美团民宿职业训练项目</div>
+            <div class="timeline-subtitle">新媒体运营实习生</div>
+            <div class="timeline-desc">
+              • 基于小红书、微博等平台用户偏好分析，策划新年主题推广活动，累计1000+用户互动<br>
+              • 完成全面的竞品分析报告，识别市场差异化机遇并提出优化建议
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 科研项目 -->
+      <div class="experience-content" id="research">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2023 - 2024</div>
+            <div class="timeline-title">🌱 江西省农业碳排放驱动因素及脱钩效应研究</div>
+            <div class="timeline-subtitle">国家级大创项目负责人</div>
+            <div class="timeline-desc">
+              作为项目负责人，带领团队研究江西省农业碳排放的时空演变特征与影响因素。基于时变参数C-D生产函数和LMDI分解法进行实证分析，论文发表于《应用生态学报》（CSCD）。
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2022 - 2023</div>
+            <div class="timeline-title">🌲 林业碳汇项目效益评估</div>
+            <div class="timeline-subtitle">省级大创项目核心成员</div>
+            <div class="timeline-desc">
+              参与黑龙江省林业碳汇项目的效益评估工作，运用森林碳汇计量模型进行测算，为项目决策提供数据支持。
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 志愿服务 -->
+      <div class="experience-content" id="volunteer">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2023.04 - 2023.05</div>
+            <div class="timeline-title">🌟 2024亚布力中国企业家论坛</div>
+            <div class="timeline-subtitle">秘书组志愿者</div>
+            <div class="timeline-desc">
+              担任企业家专属助理，负责接待和行程安排工作，灵活解决突发事件，100%保障了企业家行程的顺利执行。
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2022</div>
+            <div class="timeline-title">📚 道外区乡村支教活动</div>
+            <div class="timeline-subtitle">支教志愿者</div>
+            <div class="timeline-desc">
+              前往乡村小学进行支教活动，教授英语课程，与孩子们建立了深厚感情。
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-date">2022</div>
+            <div class="timeline-title">🏔️ "一起云支教，共同迎冬奥"活动</div>
+            <div class="timeline-subtitle">优秀志愿者</div>
+            <div class="timeline-desc">
+              参与线上支教活动，为乡村儿童提供教育支持，荣获"优秀志愿者"称号。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品展示 -->
+  <section class="container" id="works">
+    <div class="section-title">
+      <h2>作品展示</h2>
+      <p>用心做的每一个作品 ✨</p>
+    </div>
+    <div class="works-grid">
+      <div class="work-card scroll-animate">
+        <div class="work-image">📄</div>
+        <div class="work-content">
+          <span class="work-category">学术论文</span>
+          <div class="work-title">江西省农业碳排放驱动因素及脱钩效应</div>
+          <div class="work-desc">
+            基于时变参数C-D生产函数的LMDI分解法和Tapio脱钩模型，发表于《应用生态学报》（CSCD，第一作者）。
+          </div>
+          <a href="documents/学术论文/基于时变参数C-D生产函数...业碳排放驱动因素及脱钩效应_朱嘉晴.pdf" target="_blank" class="work-link">📎 查看论文</a>
+        </div>
+      </div>
+      
+      <div class="work-card scroll-animate">
+        <div class="work-image">🎓</div>
+        <div class="work-content">
+          <span class="work-category">毕业论文</span>
+          <div class="work-title">农林上市公司ESG表现对企业韧性的影响</div>
+          <div class="work-desc">
+            研究ESG表现与企业韧性之间的关系，探讨可持续经营战略价值，获评校级优秀毕业论文。
+          </div>
+          <a href="documents/学术论文/2023-0189 校样文件 .pdf" target="_blank" class="work-link">📎 查看毕业论文</a>
+        </div>
+      </div>
+      
+      <div class="work-card scroll-animate">
+        <div class="work-image">🌍</div>
+        <div class="work-content">
+          <span class="work-category">ESG研究</span>
+          <div class="work-title">中国上市公司ESG国际化治理研究</div>
+          <div class="work-desc">
+            港中文MGNT5602课程项目，研究中国上市矿业公司国际化对ESG治理的影响。
+          </div>
+          <a href="documents/港中文作业/MGNT5602NA-GroupESGResearchProjectPresentation-20260203.pdf" target="_blank" class="work-link">📎 查看报告</a>
+        </div>
+      </div>
+      
+      <div class="work-card scroll-animate">
+        <div class="work-image">🏨</div>
+        <div class="work-content">
+          <span class="work-category">案例分析</span>
+          <div class="work-title">亚朵酒店可持续发展战略分析</div>
+          <div class="work-desc">
+            港中文小组项目，分析亚朵酒店ESG实践与可持续发展战略，担任组长。
+          </div>
+          <a href="documents/港中文作业/group1 Atour.pdf" target="_blank" class="work-link">📎 查看分析报告</a>
+        </div>
+      </div>
+      
+      <div class="work-card scroll-animate">
+        <div class="work-image">🚗</div>
+        <div class="work-content">
+          <span class="work-category">案例分析</span>
+          <div class="work-title">比亚迪全球扩张ESG挑战与策略</div>
+          <div class="work-desc">
+            港中文小组项目，分析比亚迪全球化进程中的ESG核心挑战与应对策略。
+          </div>
+          <a href="documents/港中文作业/group8-BYD.pdf" target="_blank" class="work-link">📎 查看分析报告</a>
+        </div>
+      </div>
+      
+      <div class="work-card scroll-animate">
+        <div class="work-image">🍅</div>
+        <div class="work-content">
+          <span class="work-category">碳核算</span>
+          <div class="work-title">番茄碳足迹核算分析</div>
+          <div class="work-desc">
+            港中文课程作业，运用生命周期评估法核算番茄从种植到消费全过程的碳排放。
+          </div>
+          <a href="documents/港中文作业/Calculate the carbon footprint of tomatoes(1).pdf" target="_blank" class="work-link">📎 查看碳核算报告</a>
+        </div>
+      </div>
+      
+      <div class="work-card scroll-animate">
+        <div class="work-image">🛒</div>
+        <div class="work-content">
+          <span class="work-category">商业案例</span>
+          <div class="work-title">跨境电商创业项目</div>
+          <div class="work-desc">
+            全国高校商业精英挑战赛跨境电商赛道二等奖，负责市场分析和商业模式设计。
+          </div>
+          <a href="documents/比赛项目/跨境电商直播选品策划书.pdf" target="_blank" class="work-link">📎 查看策划书</a>
+        </div>
+      </div>
+      
+      <div class="work-card scroll-animate">
+        <div class="work-image">📊</div>
+        <div class="work-content">
+          <span class="work-category">数据分析</span>
+          <div class="work-title">农产品销售数据分析</div>
+          <div class="work-desc">
+            全国大学生数学建模竞赛黑龙江赛区一等奖，建立预测模型分析农产品销售规律。
+          </div>
+          <a href="documents/比赛项目/2022数学建模.pdf" target="_blank" class="work-link">📎 查看建模报告</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 证书展示 -->
+  <section class="container">
+    <div class="section-title">
+      <h2>专业证书</h2>
+      <p>持续学习，不断进步 📜</p>
+    </div>
+    <div class="certificates-scroll scroll-animate">
+      <div class="cert-card">
+        <div class="cert-icon">🌱</div>
+        <div class="cert-title">ACCA-ESG证书</div>
+        <div class="cert-org">特许公认会计师公会</div>
+        <a href="documents/证书证明/ACCA-ESG.pdf" target="_blank" class="cert-link">📎 查看证书</a>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">📊</div>
+        <div class="cert-title">CFA Sustainable Investment</div>
+        <div class="cert-org">CFA Institute 基础证书</div>
+        <a href="documents/证书证明/CFA ESG可持续投资基础证书.pdf" target="_blank" class="cert-link">📎 查看证书</a>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">💻</div>
+        <div class="cert-title">计算机二级（优秀）</div>
+        <div class="cert-org">全国计算机等级考试</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🎤</div>
+        <div class="cert-title">普通话二级甲等</div>
+        <div class="cert-org">语言能力认证</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🥗</div>
+        <div class="cert-title">公共营养师三级</div>
+        <div class="cert-org">职业技能认证</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系我 -->
+  <section class="container" id="contact">
+    <div class="section-title">
+      <h2>联系我</h2>
+      <p>期待与您交流 🌸</p>
+    </div>
+    <div class="contact scroll-animate">
+      <h3 class="contact-title">让我们建立联系 ✨</h3>
+      <p class="contact-subtitle">对可持续商业、ESG投资或任何话题感兴趣，都欢迎联系我</p>
+      
+      <div class="contact-methods">
+        <div class="contact-item">
+          <span>📧</span>
+          <a href="mailto:zhjiaqing7880@163.com">zhjiaqing7880@163.com</a>
+        </div>
+        <div class="contact-item">
+          <span>📕</span>
+          <a href="https://xhslink.com/m/3hFzVVhksET" target="_blank">小红书 @朱嘉晴</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <p>感谢您的浏览，期待与您相遇 🌸</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
