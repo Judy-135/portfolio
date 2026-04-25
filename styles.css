@@ -925,3 +925,84 @@ body {
   margin-top: 1rem;
   font-size: 0.9rem;
 }
+
+/* 生活时光板块 */
+.life-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .life-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.life-category {
+  background: white;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px var(--shadow-pink);
+  transition: all 0.3s ease;
+}
+
+.life-category:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px var(--shadow-pink);
+}
+
+.life-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 2px solid var(--pink-light);
+}
+
+.life-icon {
+  font-size: 2rem;
+}
+
+.life-header h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.life-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.life-photo {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--pink-light);
+}
+
+.life-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.life-photo:hover img {
+  transform: scale(1.1);
+}
+
+.life-desc {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin: 0;
+  font-style: italic;
+}
