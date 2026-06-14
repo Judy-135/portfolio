@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
